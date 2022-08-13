@@ -1,0 +1,23 @@
+{
+    "name": "kenrywan/laravel-mazer",
+    "description": "Easy Mazer Theme integration with Laravel",
+    "keywords": ["laravel", "mazer", "admin", "administrator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenry Wan",
+            "email": "kenry.nainggolan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kenrywan\\LaravelMazer\\": "src/"
+        }
+    },
+
+    "require": {
+        "laravel/framework": ">=9.0",
+        "php": ">=8.0",
+        "kenrywan/mazer": "^2.0"
+    }
+}
